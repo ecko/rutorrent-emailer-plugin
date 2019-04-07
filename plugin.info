@@ -1,0 +1,4 @@
+plugin.description: This plugin sends notifications via Gmail when a torrent is completed.
+plugin.author: ecko
+plugin.version: 1.0
+plugin.help: 
