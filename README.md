@@ -3,6 +3,8 @@ Adds email functionality to ruTorrent/rTorrent on download completion
 
 > **Note:** Currently only supports Gmail.
 
+![screenshot-1](https://user-images.githubusercontent.com/122149/55686481-b403e580-592f-11e9-9123-647b5e459877.PNG)
+
 ## Installation instructions
 1. ```cd /var/www/rutorrent/plugins (or your ruTorrent insallation directory```
 2. ```git clone https://github.com/ecko/rutorrent-emailer-plugin.git emailer```
