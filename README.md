@@ -1,5 +1,5 @@
 # ruTorrent Email Plugin
-Adds email functionality to ruTorrent/rTorrent on download completion
+This plugin adds email notifications to ruTorrent/rTorrent when downloads finish
 
 > **Note:** Currently only supports Gmail.
 
