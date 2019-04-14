@@ -94,15 +94,14 @@ class rEmailer
 				//.getCmd('d.get_custom').'=seedingtime'
 			*/
 			
-			$cmd = getCmd('d.custom1.set').'=x-emailer,"$'.getCmd('execute_capture')
+			$cmd = getCmd('execute2')
 				.'={'.getPHP().','.$pathToEmailer.'/update.php,$'
 				.getCmd('d.get_name').'=,$'
 				.getCmd('d.get_size_bytes').'=,$'
 				.getCmd('d.get_bytes_done').'=,$'
 				.getCmd('d.get_creation_date').'=,$'
 				.getCmd('d.get_custom').'=addtime,'
-				.getUser().'}"';
-
+				.getUser().'}';	
 		}
 
 		$finishedCmd = $theSettings->getOnFinishedCommand(array('emailer'.getUser(), $cmd));

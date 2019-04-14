@@ -26,7 +26,7 @@ $details = array(
 // send the email!
 $result = $em->sendEmailOnCompletion($details, var_export($args, TRUE));
 
-echo "RESULT: ", $result;
+//echo "RESULT: ", $result;
 
 // exit normally, not needed as scripts terminate with code 0 normally
 exit(0);
